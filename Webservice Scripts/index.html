@@ -1,0 +1,23 @@
+<!DOCTYPE html >
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>Display All Entities
+    </title>
+    <link type="text/css" rel="stylesheet" href="./style.css" />
+
+    <script type="text/javascript" src="./script.js"></script>
+  </head>
+
+  <body style="margin:0px; padding:0px;" onload="load()">
+    <div>
+      <select id="locationSelect" style="width:100%;visibility:hidden">
+      </select>
+    </div>
+    <div id="map" style="width: 100%; height: 80%"></div>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjfwwEXxOZhpiN-WEo4--idOTVmPo5NH0&callback=load">
+    </script>
+  </body>
+</html>
